@@ -1,4 +1,6 @@
-# Node Skeleton
+# Strawberry Crumble Decision Maker
+
+![Home page](media/strawberry.jpg?raw=true "Decision Maker")
 
 ## Project Setup
 
@@ -10,7 +12,7 @@
 5. Push to the new origin: `git push -u origin master`
 6. Verify that the skeleton code now shows up in your repo on GitHub
 
-## Getting Started
+## Setup Instructions
 
 1. Create the `.env` by using `.env.example` as a reference: `cp .env.example .env`
 2. Update the .env file with your correct local information
@@ -23,7 +25,10 @@
 7. Run the server: `npm run local`
 8. Visit `http://localhost:8080/`
 
-## Dependencies
 
-- Node 5.10.x or above
-- NPM 3.8.x or above
+## Stack
+
+- Node
+- Express
+- PostgreSQL
+- Knex.js
